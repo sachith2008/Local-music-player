@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+<html>
+<head>
+	<title>Login Page</title>
+	<link rel="stylesheet" type="text/css" href="loginstyle.css">
+</head>
+<body>
+	<div class="loginbox">
+		<h1>Login Here</h1>
+		<form>
+			<p>Username</p>
+			<input type="text" name="username" id="username" placeholder="Enter Username">
+			<p>Password</p>
+			<input type="password" name="password" id="password" placeholder="Enter Password">
+			<input type="button" name="submit" value="Login" onclick="checkLogin()">
+		</form>
+		<div id="error-message"></div>
+	</div>
+	<script src="script-login.js"></script>
+</body>
+</html>
